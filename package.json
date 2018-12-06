@@ -1,0 +1,15 @@
+{
+  "name": "iot2studio",
+  "version": "1.0.2",
+  "description": "Twilio Studio called by SORACOM LTE-M Button",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "python ../deploy/deploy.py"
+  },
+  "author": "Katsumi Takahashi",
+  "license": "ISC",
+  "dependencies": {
+    "twilio": "^3.25.0"
+  }
+}
